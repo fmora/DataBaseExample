@@ -65,7 +65,7 @@ public class MainActivity extends Activity implements DownloadListener {
 			public void onItemClick(AdapterView<?> adapter, View view, int position,
 					long value) {
 				Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-				intent.putExtra("link", list.get(position).link);
+				//intent.putExtra("link", list.get(position).link);
 				startActivity(intent);
 			}
 		});
